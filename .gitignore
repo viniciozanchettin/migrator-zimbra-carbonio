@@ -1,0 +1,46 @@
+# Dados reais de provisionamento, senhas e logs gerados pelos scripts
+migration-data/
+*.tsv
+*.csv
+*.csv.tmp.*
+domains.txt
+excluded-accounts.txt
+logs/
+LOG_imapsync/
+*.log
+
+# Credenciais locais (guarde os arquivos de --passfile1/2 em secrets/)
+secrets/
+credentials/
+imap-credentials.*/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Copias compactadas de dados e caixas postais
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.7z
+*.eml
+*.mbox
+
+# Temporarios e arquivos locais de editores/sistema
+tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
